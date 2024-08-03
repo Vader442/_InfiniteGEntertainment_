@@ -1,0 +1,79 @@
+body::-webkit-scrollbar{
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track{
+    background: rgb(255, 255, 255)
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(228, 88, 88);
+    border-radius: 20px;
+    border: 1px solid rgb(18, 130, 228)
+}
+
+body{
+    font-size: 23px;
+    color: rgb(228, 88, 88);
+}
+
+.p2 span{
+    text-decoration: underline;
+    color: rgb(18, 130, 228);
+}
+
+.p3 span{
+    text-decoration: underline;
+    color: rgb(18, 130, 228);
+}
+
+.p4 span{
+    text-decoration: underline;
+    color: rgb(18, 130, 228);
+}
+
+.p5 span{
+    text-decoration: underline;
+    color: rgb(18, 130, 228);
+}
+
+.p6 span{
+    text-decoration: underline;
+    color: rgb(18, 130, 228);
+}
+
+.p7 span{
+    text-decoration: underline;
+    color: rgb(18, 130, 228);
+}
+
+.p8 span{
+    text-decoration: underline;
+    color: rgb(18, 130, 228);
+}
+
+.p9 span{
+    text-decoration: underline;
+    color: rgb(18, 130, 228);
+}
+
+.p10 span{
+    text-decoration: underline;
+    color: rgb(18, 130, 228);
+}
+
+.p11 span{
+    text-decoration: underline;
+    color: rgb(18, 130, 228);
+}
+
+.p12 span{
+    text-decoration: underline;
+    color: rgb(18, 130, 228);
+}
+
+.p13 span{
+    text-decoration: underline;
+    color: rgb(18, 130, 228);
+}
+

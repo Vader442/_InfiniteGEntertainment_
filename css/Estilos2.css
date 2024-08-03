@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    padding: 30px;
+    justify-content: center;
+    min-height: 99vh;
+}
+
+body::-webkit-scrollbar{
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track{
+    background: rgb(255, 255, 255)
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(228, 88, 88);
+    border-radius: 20px;
+    border: 1px solid rgb(18, 130, 228)
+}
+
+.header{
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 20vh;
+    display: flex;
+    position: relative;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo{
+    color: rgb(228, 88, 88);
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 9px;
+    color: rgb(228, 88, 88);
+    display: block;
+    font-weight: 600;
+}
+.menu .navbar ul li a:hover{
+    text-decoration: underline;
+}
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 250px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-text{
+    text-align: center;
+}
+
+.header-text h1{
+    font-size: 85px;
+    color: rgb(228, 88, 88);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+h1{
+   text-align: center;
+   text-transform: uppercase;
+   margin-bottom: 15px;
+   color: rgb(228, 88, 88);
+}
+
+.mapa{
+    border-radius: 10px;
+    padding: 3px;
+    border: 10px solid rgb(0, 0, 0);
+}
+
+.datos{
+    text-align: center;
+    margin: 3px;
+    text-decoration: none;
+    line-height: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+.calle{
+    color: rgb(18, 130, 228);
+    position: relative;
+}
+
+.teléfono{
+    color: rgb(18, 130, 228);
+    position: relative;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cont{
+    background-color: rgba(180, 166, 166, 0.5);
+}
+
+.footer{
+    padding: 100px 0 0;
+    text-align: center;
+}
+
+.footer-text{
+    margin-top: 100px;
+    border-top: 1px solid rgb(18, 130, 228);
+    padding: 20px 0;
+}
+
+.footer-text p{
+    color: rgb(228, 88, 88);
+    font-size: 16px;
+}
+
+.footer-text a{
+    color: rgb(228, 88, 88);
+}
+
+.redes-sociales{
+    min-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+i{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(228, 88, 88);
+    margin: 20px;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0px 5px 10px rgb(228, 88, 88);
+}
+
+.fa-youtube:hover{
+    background-color: red;
+    color: white;
+    box-shadow: 0px 0px 15px red,
+                0px 0px 45px red,
+                0px 0px 75px red,
+                0px 0px 115px red;
+}
+
+.fa-twitter:hover{
+    background-color: rgb(18, 130, 228);
+    color: white;
+    box-shadow: 0px 0px 15px rgb(18, 130, 228),
+                0px 0px 45px rgb(18, 130, 228),
+                0px 0px 75px rgb(18, 130, 228),
+                0px 0px 115px rgb(18, 130, 228);
+}
+
+.fa-facebook:hover{
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 15px blue,
+                0px 0px 45px blue,
+                0px 0px 75px blue,
+                0px 0px 115px blue;
+}

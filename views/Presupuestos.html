@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../css/Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="../images/Logotipo.jpg" class="logo">Logo</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="images/Logotipo.jpg" class="menu-icono" alt="Logotipo">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="Productos.html">Productos</a></li>
+                    <li><a class="pres" href="Presupuestos.html">Presupuestos</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+      </header> 
+    <div class="Inicio">
+     <h1>Regístrese</h1>
+        <form>
+            <!--AQUÍ SE INCLUYE UN FORM PARA RELLENAR LOS DATOS DE EMPLEADO Y PODER ENVIARLOS CON UN BUTTON-->
+          <input class="campo" type="text" placeholder="Nombre" required pattern="[A-Za-z]{6,12}" title="El usuario debe tener de 6 a 12 caracteres. Solo letras.">
+          <input class="campo" type="email" placeholder="Email" required pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
+          <input class="campo" type="tel" placeholder="Teléfono" required pattern="[1-9]{9}" title="Sin espacios.">
+          <input class="campo" type="text" placeholder="Observaciones" required pattern="[A-Za-z]{20,100}" title="Escriba mínimo 20 caracteres">
+          <div class="aceptar">
+            <label for="accept">
+                <input type="checkbox" id="accept" required>
+                Acepte la política de privacidad
+            </label>
+          </div>
+          <input class="button" type="submit" value="Enviar">
+        </form>
+    </div>
+    <footer class="footer container">
+        <!--AQUÍ SE HAN INCLUIDO LOS DERECHOS Y REDES SOCIALES DE LA EMPRESA-->
+        <div class="footer-text">
+            <p>&copy;InfiniteG Entertainment</p>
+            <a href="Aviso_legal.html">Aviso legal</a>
+            <p>Leicester Square, West End, Londres</p>
+            <div class="redes-sociales">
+                <a href="https://www.youtube.com/channel/UCMyGSltfE9Ib6Utx5XDVvAw"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://x.com/InfiniteGEntr"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61562668687480"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
